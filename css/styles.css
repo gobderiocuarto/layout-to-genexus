@@ -21,7 +21,6 @@ body {
 
 /* header */
 header {
-  /* background-color: var(--blue); */
   background: -webkit-linear-gradient(top left, #003fa2, #4ca6de);
   background: -moz-linear-gradient(top left, #003fa2, #4ca6de);
   background: linear-gradient(to bottom right, #003fa2, #4ca6de);
@@ -108,36 +107,13 @@ footer p {
     height: 48px;
   }
 
-  nav {
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #ddd;
-  }
-
-  nav .content {
-    padding: 6px 0;
-    display: flex;
-  }
-
-  nav p {
-    margin-bottom: 0;
-    color: #333;
+  /* barcolor */
+  .barcolor .item {
+    height: 4px;
   }
 
   /* footer */
   footer {
-    background-color: var(--blue, black);
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  footer .content {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  footer p {
-    margin-bottom: 0;
+    font-size: 1.2rem;
   }
 }
